@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div.item1{
+    border: 1px solid black;
+    height: 100px;
+    font-size: large;
+    background-color: blue;
+    color: aqua;
+}
+div.item2{
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 100px;
+    font-size: large;
+    color:red;
+}
+div.item3{
+    border: 1px solid black;
+    background-color: blueviolet;
+    height: 100px;
+    font-size: large;
+    color:red;
+}
+.container{
+    display: flex;
+    border: vmax;
+    justify-content: space-between;
+}
+.item{
+    width: 30%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-grow: 4;
+}
